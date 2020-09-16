@@ -60,7 +60,7 @@ footer{
 
 .gallerie{
 	display : flex;
-	display-direction : row;
+	flex-direction : row;
 	flex-wrap : wrap;
 	justify-content: center;
 	align-items: center;
