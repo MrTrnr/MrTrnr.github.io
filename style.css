@@ -1,4 +1,7 @@
 html {align-item:center;}
+
+
+
 body{
 	
 	font-family: calibri;
@@ -76,25 +79,60 @@ a:active
 	display:flex;
 	flex-direction:row;
 	flex-wrap: wrap;
+	justify-content: center;
 	align-items: flex-start;
 	
 }
-#gauche
+
+@media screen and (max-width :800px)
 {
-	padding : 0px 20px 10px 10px;
-	text-align: right;
-	width:200px;
+	#gauche
+	{
+		padding : 0px 20px 10px 10px;
+		text-align: center;
+		width:200px;
+	}
 }
-#droite
+
+@media screen and (min-width :801px)
 {
-	padding : 0px 10px 10px 20px;
-	border-style: solid;
-	border-width: 0 0 0 5px;
-	
-	border-color: #CCCCCC;
-	text-align: left;
-	max-width:500px;
+	#gauche
+	{
+		padding : 0px 20px 10px 10px;
+		text-align: right;
+		width:200px;
+	}
 }
+
+@media screen and (max-width :800px)
+{
+	#droite
+	{
+		padding : 0px 10px 10px 20px;
+		/*border-style: solid;*/
+		/*border-width: 0 0 0 5px;*/
+		
+		/*border-color: #CCCCCC;*/
+		text-align: left;
+		max-width:500px;
+	}
+}
+
+@media screen and (min-width :801px)
+{
+	#droite
+	{
+		padding : 0px 10px 10px 20px;
+		border-style: solid;
+		border-width: 0 0 0 5px;
+		
+		border-color: #CCCCCC;
+		text-align: left;
+		max-width:500px;
+	}
+}
+
+
 img
 {
 	height :200px;
