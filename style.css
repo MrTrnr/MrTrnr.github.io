@@ -47,19 +47,7 @@ a:active
 {
 	max-width: 800px;
 }
-#entete
-{
-	
 
-	background-color:#CCCCCC;
-	padding: 0 10px 0 0;
-	
-	height:200px;
-	display:flex;
-	flex-direction:row;
-	justify-content: space-between;
-	align-items: center;
-}
 #entete_gauche
 {
 	align-self: stretch;
@@ -86,11 +74,26 @@ a:active
 
 @media screen and (max-width :800px) /*affichage pour écran de smartphone*/
 {
-	
+	#entete
+	{
+		background-color:#CCCCCC;
+		padding: 0 10px 0 0;
+		height:180px;
+		display:flex;
+		flex-direction:row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	img
+	{
+		height :180px;
+	}
+
 	h1
 	{
 		
-		margin:10px;
+		margin:2px;
 		font-family: 'Carrois Gothic', sans-serif;
 		font-weight:bold;
 		font-size:160%;
@@ -100,7 +103,7 @@ a:active
 	h2
 	{
 		
-		margin:10px;
+		margin:2px;
 		font-family: 'Carrois Gothic', sans-serif;
 		font-weight:bold;
 		font-size:140%;
@@ -116,7 +119,7 @@ a:active
 		font-weight: lighter;
 	}
 	
-	#barre_separation
+	.barre_separation
 	{
 		display: none;
 	}
@@ -143,6 +146,22 @@ a:active
 
 @media screen and (min-width :801px)
 {
+	#entete
+	{
+		background-color:#CCCCCC;
+		padding: 0 10px 0 0;
+		height:200px;
+		display:flex;
+		flex-direction:row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	img
+	{
+		height :200px;
+	}
+
 	h1
 	{
 		
@@ -172,7 +191,7 @@ a:active
 		font-weight: lighter;
 	}
 
-	#retour_ligne
+	.retour_ligne
 	{
 		display: none;
 	}
@@ -197,10 +216,7 @@ a:active
 }
 
 
-img
-{
-	height :200px;
-}
+
 
 h3
 {
