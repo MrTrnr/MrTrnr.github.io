@@ -1,7 +1,7 @@
 html {align-item:center;} /*pour mon portfolio*/
 
 body{
-	font-family: 'Open Sans', calibri, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color:#17365d;
 	margin-top:20px;
 	margin-right:auto;
@@ -15,19 +15,19 @@ body{
 
 a:link
 {
-  color: white;
-  text-decoration: none;
+  color: #17365d;
+  /*text-decoration: none;*/
 }
 
 a:visited
 {
-  color: #17365d;
+  color: blue;
   text-decoration: none;
 }
 
 a:hover
 {
-  color: #17365d;
+  color: white;
   text-decoration: none;
 }
 
@@ -87,7 +87,7 @@ a:active
 	h1
 	{
 		margin:2px;
-		font-family: 'Carrois Gothic', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-weight:bold;
 		font-size:160%;
 	}
@@ -95,7 +95,7 @@ a:active
 	h2
 	{
 		margin:2px;
-		font-family: 'Carrois Gothic', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-weight:bold;
 		font-size:140%;
 	}
@@ -103,7 +103,7 @@ a:active
 	h4
 	{
 		margin:2px;
-		font-family: 'Carrois Gothic', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size:100%;
 		font-weight: lighter;
 	}
@@ -149,7 +149,7 @@ a:active
 	h1
 	{
 		margin:10px;
-		font-family: 'Carrois Gothic', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-weight:bold;
 		font-size:200%;
 	}
@@ -157,7 +157,7 @@ a:active
 	h2
 	{
 		margin:10px;
-		font-family: 'Carrois Gothic', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-weight:bold;
 		font-size:180%;
 	}
@@ -165,7 +165,7 @@ a:active
 	h4
 	{
 		margin:10px;
-		font-family: 'Carrois Gothic', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size:120%;
 		font-weight: lighter;
 	}
@@ -178,7 +178,7 @@ a:active
 	#gauche
 	{
 		padding : 0px 20px 10px 10px;
-		text-align: right;
+		text-align: left;
 		width:200px;
 	}
 
@@ -199,7 +199,7 @@ a:active
 h3
 {
 	margin: 0px 0 10px 0;
-	font-family: 'Carrois Gothic', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:140%;
 	font-weight: bolder;
 }
